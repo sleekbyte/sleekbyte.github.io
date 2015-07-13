@@ -1,0 +1,2 @@
+name: Sleekbyte
+exclude: [README.md, LICENSE, CNAME, Gemfile, Gemfile.lock, vendor]
