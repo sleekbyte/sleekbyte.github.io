@@ -1,6 +1,6 @@
 name: Sleekbyte
 description: We are Sleekbyte
-url: "http://sleekbyte.com"
+url: "https://sleekbyte.com"
 github_url: "https://github.com/sleekbyte"
 
 exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor, script]
