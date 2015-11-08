@@ -1,2 +1,9 @@
 name: Sleekbyte
-exclude: [README.md, LICENSE, CNAME, Gemfile, Gemfile.lock, vendor]
+description: We are Sleekbyte
+url: "http://sleekbyte.com"
+github_url: "https://github.com/sleekbyte"
+
+exclude: [README.md, LICENSE.md, CNAME, Gemfile, Gemfile.lock, vendor, script]
+
+sass:
+  style: :compressed

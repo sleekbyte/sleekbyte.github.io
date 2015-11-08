@@ -1,0 +1,131 @@
+---
+---
+
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: white;
+
+  .title {
+    margin: 8rem 0 2.5rem;
+    font-weight: 300;
+    color: #363636;
+  }
+
+  .description {
+    font-weight: 300;
+  }
+}
+
+.products {
+  padding-top: 3rem;
+  a {
+    color: gray;
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+    .description {
+      padding-top: 3rem;
+      text-align: center;
+      font-weight: 200;
+    }
+  }
+}
+
+.contact {
+  a {
+    padding-left: 0.5rem;
+  }
+}
+
+/*******************************************************************************
+NAVIGATION BAR
+*******************************************************************************/
+
+.navbar {
+  background: white;
+
+  .container {
+    padding-top: 2rem;
+    max-width: 50em;
+  }
+
+  .nav > .active > a {
+    color: #777777;
+    background: none;
+    &:hover {
+      background: none;
+      color: black;
+    }
+  }
+
+  .nav > li {
+    font-size: 1.75rem;
+    font-weight: lighter;
+
+    a {
+      text-shadow: none;
+      text-decoration: none;
+
+      &:hover {
+        background: none;
+        color: black;
+      }
+    }
+  }
+
+  .brand-logo {
+    padding-top: 0;
+    object-fit: contain;
+    max-height: 100%;
+    height: 100%;
+  }
+}
+
+/*******************************************************************************
+FOOTER
+*******************************************************************************/
+.footer {
+  background: white;
+  font-size: 1.25rem;
+  line-height: 1.75em;
+  text-align: center;
+
+  .container {
+    margin: 20px auto;
+    padding-bottom: 2em;
+  }
+
+
+  a {
+    color: #676767;
+    text-decoration: none;
+    &:hover {
+      background: none;
+      color: black;
+    }
+  }
+
+  .copyright {
+    font-weight: 100;
+    color: #9A9A9A;
+    display: block;
+  }
+
+  .contact {
+    font-weight: 300;
+    display: block;
+
+    a {
+      margin:0 1em;
+    }
+  }
+}
