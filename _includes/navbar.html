@@ -13,9 +13,14 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="/">Products</a></li>
-        <li><a href="{{ site.github_url }}" target="_blank">Company</a></li>
+        <li class="active"><a id="Products" href="/">Products</a></li>
+        <li><a id="Company" href="{{ site.github_url }}" target="_blank">Company</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
+<script>
+  mixpanel.track_links("#Products", "Products Click", {'Network': 'Products'});
+  mixpanel.track_links("#Company", "Company Description Click", {'Network': 'GitHub'});
+</script>

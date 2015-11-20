@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   {% include head.html %}
-  <body>
+  <body onload="mixpanel.track('Page View', {'Page Name': '{{ page.pagename }}', 'URL': window.location.href});">
     {% include navbar.html %}
     {{ content }}
     {% include footer.html %}
